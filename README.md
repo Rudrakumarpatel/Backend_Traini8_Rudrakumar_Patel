@@ -128,16 +128,6 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
   ```sh
   java -jar target/traini8-0.0.1-SNAPSHOT.jar
   ```
-- **Docker Support (Optional)**:
-    - Build the image:
-      ```sh
-      docker build -t traini8 .
-      ```
-    - Run the container:
-      ```sh
-      docker run -p 8080:8080 traini8
-      ```
-
 ## Folder Structure
 ```
 traini8/
